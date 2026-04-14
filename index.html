@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Informática: Prática de Edição</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #1d2b64 0%, #f8cdda 100%);
+            color: white;
+            padding: 50px 0;
+            margin-bottom: 30px;
+            border-radius: 0 0 30px 30px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .btn-agile {
+            background-color: #ff4b2b;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-agile:hover {
+            background-color: #ff416c;
+            transform: scale(1.05);
+            color: white;
+        }
+        .format-instruction {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .copy-area {
+            background-color: #ffffff;
+            border: 2px dashed #6c757d;
+            padding: 25px;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+            border-radius: 10px;
+        }
+        .badge-format {
+            font-size: 0.9em;
+            margin-right: 5px;
+        }
+        .prof{
+          color: black;
+          font-size: 15px;
+          
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-section text-center">
+    <div class="container">
+        <h1>🖥️ Aula Prática de Informática</h1>
+        <p class="lead">Dominando o Teclado e a Formatação de Texto</p>
+        <p class="prof">Professores: Victória e Miguel</p>
+    </div>
+</div>
+
+<div class="container mb-5">
+    
+    <div class="card mb-4">
+        <div class="card-body text-center p-5">
+            <h2 class="text-danger mb-3">⏱️ Passo 1: Aquecimento</h2>
+            <p class="fs-5 text-muted">Vamos começar com <strong>10 minutos</strong> de treino de digitação para soltar os dedos.</p>
+            <div class="alert alert-info">Dica: Tente manter as mãos posicionadas corretamente e evite olhar para as teclas!</div>
+            <a href="https://www.agilefingers.com/pt" target="_blank" class="btn btn-agile btn-lg shadow">👉 CLIQUE AQUI PARA COMEÇAR O TREINO</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body p-5">
+            <h2 class="text-primary mb-4">✍️ Passo 2: Exercício de Edição</h2>
+            <p class="mb-4">Copie o texto abaixo e cole no seu editor (Word ou Google Docs). Depois, siga estas instruções rigorosamente:</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="format-instruction">
+                        <span class="badge bg-primary badge-format">1</span> <strong>Título:</strong> Tamanho 20, Negrito e Centralizado.
+                    </div>
+                    <div class="format-instruction">
+                        <span class="badge bg-primary badge-format">2</span> <strong>Subtítulos:</strong> Cor Azul e <span style="text-decoration: underline;">Sublinhado</span>.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="format-instruction">
+                        <span class="badge bg-primary badge-format">3</span> <strong>Marca-texto:</strong> Use a ferramenta de realce (amarelo) na frase que fala sobre <em>"mensagens instantâneas"</em>.
+                    </div>
+                    <div class="format-instruction">
+                        <span class="badge bg-primary badge-format">4</span> <strong>Corpo do Texto:</strong> Fonte Arial, tamanho 12 e Justificado.
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="mt-4 text-secondary">📋 Selecione e copie o texto abaixo:</h5>
+            <div class="copy-area shadow-sm" id="texto">
+O IMPACTO DA TECNOLOGIA NO COTIDIANO
+
+A Evolução Digital
+A tecnologia mudou drasticamente a forma como vivemos, trabalhamos e nos comunicamos. O que antes levava dias para ser resolvido através de cartas, hoje acontece em milissegundos por meio de mensagens instantâneas.<br />
+
+Benefícios na Educação
+O acesso à informação tornou-se democrático. Através da internet, alunos do mundo inteiro podem acessar bibliotecas digitais, cursos gratuitos e ferramentas de colaboração em tempo real. A sala de aula não é mais limitada por quatro paredes. <br />
+
+O Futuro das Profissões
+Com a inteligência artificial e a automação, novas carreiras surgem a cada dia. Aprender a lidar com as ferramentas digitais é, hoje, uma competência essencial para qualquer profissional que deseja se destacar no mercado de trabalho.
+            </div>
+
+            <div class="alert alert-secondary mt-4 text-center">
+                Atalhos úteis: <strong>Ctrl + C</strong> (Copiar) | <strong>Ctrl + V</strong> (Colar) | <strong>Ctrl + S</strong> (Salvar)
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center py-4">
+    <p class="text-muted">Bom trabalho, pessoal! 🚀</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
